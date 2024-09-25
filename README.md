@@ -79,4 +79,6 @@ def share_link(update: Update, context: CallbackContext):
     conn.close()
 
     update.message.reply_text(f"Partage réussi ! Vous avez reçu {invitee_stars * 0.5} étoiles supplémentaires !")
-
+git add .
+git commit -m "https://t.me/Theprodjekt_bot"
+git push origin main
